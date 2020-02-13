@@ -1,6 +1,35 @@
 [
-  {"id": 1 ,"address":"Adress1", "description": "Prop1" },
-  {"id": 2 ,"address":"Adress2", "description": "Prop2"},
-  {"id": 3 ,"address":"Adress3", "description": "Prop3"},
-  {"id": 4 ,"address":"Adress4", "description": "Prop4"}
+  {
+    "id": 1 ,
+    "type": "Casa",
+    "operation":"Venta",
+    "address":"Address1",
+    "description": "Prop1",
+    "price":1250000
+  },
+  {
+    "id": 2 ,
+    "type": "Casa",
+    "operation":"Venta",
+    "address":"Address2",
+    "description": "Prop2",
+    "price":1250000
+  },
+  {
+    "id": 3 ,
+    "type": "Casa",
+    "operation":"Venta",
+    "address":"Address3",
+    "description": "Prop3",
+    "price":1250000
+  },
+  {
+    "id": 4 ,
+    "type": "Casa",
+    "operation":"Venta",
+    "address":"Address4",
+    "description": "Prop4",
+    "price":1250000
+  }
 ]
+

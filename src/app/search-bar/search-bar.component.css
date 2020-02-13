@@ -1,0 +1,24 @@
+.form-search{
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+
+  background-color: rgb(55, 87, 124);
+}
+
+label{
+  color: rgb(255, 255, 255)
+}
+#moreFilters{
+
+  padding-top:10px;
+  padding-left: 80%;
+}
+
+#collapseExample{
+  padding-top:20px;
+}
+
+#btnBuscar{
+  padding-top:20px;
+}
