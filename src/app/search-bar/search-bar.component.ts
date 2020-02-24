@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatSelectModule } from '@angular/material/select';
 
 @Component({
   selector: 'app-search-bar',
@@ -8,8 +9,12 @@ import { Component, OnInit } from '@angular/core';
 export class SearchBarComponent implements OnInit {
 
   constructor() { }
-  public selectedType;
+  public selectedType: string = '';
   ngOnInit() {
+  }
+
+  onSelectedType(event:any) {
+    this.selectedType = event.target.value;
   }
 
 }

@@ -6,6 +6,7 @@ import { PropertyServiceService } from './property-service.service';
 import { HttpClientModule } from '@angular/common/http';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { HomeComponent } from './home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [PropertyServiceService],
   bootstrap: [AppComponent]
