@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PropertyServiceService } from '../property-service.service';
+import { PropertyService } from '../property.service';
 import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -11,11 +11,11 @@ export class PropertyListComponent implements OnInit {
 
   public properties = [];
 
-  constructor(private porpertyService: PropertyServiceService, private router: Router, private route: ActivatedRoute) { }
+  constructor(private propertyService: PropertyService, private router: Router, private route: ActivatedRoute) { }
 
 
   ngOnInit() {
-    this.porpertyService.getProperties()
+    this.propertyService.getAllProperties()
         .subscribe(data => this.properties = data);
   }
 

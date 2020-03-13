@@ -7,7 +7,8 @@ import { IProperty } from './models/property';
   providedIn: 'root'
 })
 export class PropertyServiceService {
-  private url = 'assets/data/properties.json';
+   // private url = 'assets/data/properties.json';
+  private url = 'localhost:3001/api/propiedades';
 
   constructor(private http: HttpClient) { }
 

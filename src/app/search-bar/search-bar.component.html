@@ -7,7 +7,7 @@
               <label for="list-types">Tipo de propiedad</label>
               <div class="select-wrap">
                 <span class="icon icon-arrow_drop_down"></span>
-                <select  name="list-types" id="list-types" class="form-control d-block rounded-0" [(ngModel)]="selectedType" (change)="onSelectedType($event)">
+                <select  name="list-types" id="list-types" class="form-control d-block rounded-0" (change)="onSelectedType($event)">
                   <option value="">--Tipo--</option>
                   <option value="">Apartemento</option>
                   <option value="">Casa</option>

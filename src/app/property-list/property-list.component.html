@@ -8,11 +8,11 @@
           <div class="card-body">
             <div class="card-title">
 
-              <h2><a [routerLink]="['/propiedades', propertyId]" >{{property.description}}</a></h2>
+              <h2><a [routerLink]="['/propiedades', propertyId]" >{{property.prop_desc}}</a></h2>
             </div>
-            <small><i class="fa fa-map-marker" aria-hidden="true"></i>{{property.address}}</small>
+            <small><i class="fa fa-map-marker" aria-hidden="true"></i>{{property.prop_dir}}</small>
             <div>
-              <h3 class="prop-price">$ {{property.price}}</h3>
+              <h3 class="prop-price">$ {{property.prop_precio}}</h3>
             </div>
             <p class="card-text"></p>
             <div class="d-flex justify-content-between align-items-center">

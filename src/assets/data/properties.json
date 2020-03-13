@@ -1,35 +1,82 @@
+// [
+//   {
+//     "id": 1 ,
+//     "type": "Casa",
+//     "operation":"Venta",
+//     "address":"Address1",
+//     "description": "Prop1",
+//     "price":1250000
+//   },
+//   {
+//     "id": 2 ,
+//     "type": "Casa",
+//     "operation":"Venta",
+//     "address":"Address2",
+//     "description": "Prop2",
+//     "price":1250000
+//   },
+//   {
+//     "id": 3 ,
+//     "type": "Casa",
+//     "operation":"Venta",
+//     "address":"Address3",
+//     "description": "Prop3",
+//     "price":1250000
+//   },
+//   {
+//     "id": 4 ,
+//     "type": "Casa",
+//     "operation":"Venta",
+//     "address":"Address4",
+//     "description": "Prop4",
+//     "price":1250000
+//   }
+// ]
+
 [
   {
-    "id": 1 ,
-    "type": "Casa",
-    "operation":"Venta",
-    "address":"Address1",
-    "description": "Prop1",
-    "price":1250000
+    "prop_id": 1,
+    "prop_nom": "Casa centrica en esquina",
+    "prop_dir": "Artigas 1594",
+    "prop_tipo": "Casa",
+    "prop_ope": "Venta",
+    "prop_desc": "Casa centrica bla bla bla",
+    "prop_amb": 5,
+    "prop_ban": 3,
+    "prop_m2": 300,
+    "prop_gar": 1,
+    "prop_patio": 1,
+    "prop_img": "imagenes/casa1.jpg",
+    "prop_precio": 200000
   },
   {
-    "id": 2 ,
-    "type": "Casa",
-    "operation":"Venta",
-    "address":"Address2",
-    "description": "Prop2",
-    "price":1250000
+    "prop_id": 2,
+    "prop_nom": "Casa centrica en perfecto estado",
+    "prop_dir": "Brasil 871",
+    "prop_tipo": "Casa",
+    "prop_ope": "Venta",
+    "prop_desc": "Casa centrica bla bla bla",
+    "prop_amb": 3,
+    "prop_ban": 1,
+    "prop_m2": 232,
+    "prop_gar": 1,
+    "prop_patio": 0,
+    "prop_img": "imagenes/casa2.jpg",
+    "prop_precio": 180000
   },
   {
-    "id": 3 ,
-    "type": "Casa",
-    "operation":"Venta",
-    "address":"Address3",
-    "description": "Prop3",
-    "price":1250000
-  },
-  {
-    "id": 4 ,
-    "type": "Casa",
-    "operation":"Venta",
-    "address":"Address4",
-    "description": "Prop4",
-    "price":1250000
+    "prop_id": 3,
+    "prop_nom": "Apartamento comodo",
+    "prop_dir": "Sarandi 127",
+    "prop_tipo": "Apartamento",
+    "prop_ope": "Alquiler",
+    "prop_desc": "Apartamento bla bla bla",
+    "prop_amb": 2,
+    "prop_ban": 1,
+    "prop_m2": 125,
+    "prop_gar": 0,
+    "prop_patio": 0,
+    "prop_img": "imagenes/apto1.jpg",
+    "prop_precio": 20000
   }
 ]
-
